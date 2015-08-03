@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Matrix.Task1.Library
 {
-    public class DiagonalMatrix<T> : SquareMatrix<T>
+    public class DiagonalMatrix<T> : SimmetricMatrix<T>
     {
         public DiagonalMatrix(T[,] elements) : base(elements) { }
 
@@ -34,7 +34,6 @@ namespace Matrix.Task1.Library
                 for (int j = i + 1; j < elements.GetLength(1); j++)
                 {
                     if (!elements[i, j].Equals(default(T)))
-                        if (!elements[i, j].Equals(elements[j, i]))
                             throw new ArgumentException("The expected matrix to be diagonal", "array");
                 }
             }

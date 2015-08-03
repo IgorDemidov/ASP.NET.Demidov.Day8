@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix.Task1.Library", "Matrix.Task1.Library\Matrix.Task1.Library.csproj", "{4E28CCA0-B367-4134-9807-66AD1881C929}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix.Task1.ConsoleApp", "Matrix.Task1.ConsoleApp\Matrix.Task1.ConsoleApp.csproj", "{A8431F53-C204-432D-A0F2-DBF80490515C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixExtensions.Task1.Library", "MatrixExtensions.Task1.Library\MatrixExtensions.Task1.Library.csproj", "{D8A6A6C8-175E-4794-A2CF-93C675888662}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4E28CCA0-B367-4134-9807-66AD1881C929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E28CCA0-B367-4134-9807-66AD1881C929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E28CCA0-B367-4134-9807-66AD1881C929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8431F53-C204-432D-A0F2-DBF80490515C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8431F53-C204-432D-A0F2-DBF80490515C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8431F53-C204-432D-A0F2-DBF80490515C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8431F53-C204-432D-A0F2-DBF80490515C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A6A6C8-175E-4794-A2CF-93C675888662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A6A6C8-175E-4794-A2CF-93C675888662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A6A6C8-175E-4794-A2CF-93C675888662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A6A6C8-175E-4794-A2CF-93C675888662}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
